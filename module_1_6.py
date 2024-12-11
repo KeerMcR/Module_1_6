@@ -3,7 +3,7 @@ my_dict = {'Kirill': 1997,
            'Ilya': 1999}
 print('Dict: ', my_dict)
 print('Existing value: ', my_dict['Kirill'])
-print('Not existing value: ', my_dict.get('Masha', 'Нет информации о годе рождения.'))
+print('Not existing value: ', my_dict.get('Masha', None))
 my_dict.update({'Misha': 2000,
                 'Anna': 1998})
 a = my_dict.pop('Ilya')
